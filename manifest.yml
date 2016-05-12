@@ -1,3 +1,8 @@
+declared-services:
+  speech-to-text-service:
+    label: speech_to_text
+    plan: standard
+
 applications:
 - path: .
   memory: 256M
@@ -7,4 +12,4 @@ applications:
   host: telegramwatsonsaeger
   disk_quota: 1024M
   services:
-  - speech-to-text-service-standard
+  - speech-to-text-service
