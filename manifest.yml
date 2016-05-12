@@ -7,4 +7,4 @@ applications:
   host: telegramwatsonsaeger
   disk_quota: 1024M
   services:
-  - Speech To Text-BOT
+  - speech-to-text-service-standard
